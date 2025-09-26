@@ -1,3 +1,43 @@
-.ipynb_checkpoints/
+# =====================================
+# PYTHON CACHE
+# =====================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# =====================================
+# JUPYTER NOTEBOOK CHECKPOINTS
+# =====================================
+.ipynb_checkpoints/
+
+# =====================================
+# KAGGLE WORKING / OUTPUT
+# =====================================
+/kaggle/working/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# =====================================
+# DATASET / BÜYÜK VERİ DOSYALARI
+# =====================================
+*.zip
+*.tar.gz
+*.h5
+*.pt
+*.ckpt
+
+# =====================================
+# IDE / EDITÖR DOSYALARI
+# =====================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =====================================
+# SİSTEM DOSYALARI
+# =====================================
+.DS_Store
+Thumbs.db
