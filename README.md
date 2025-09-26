@@ -72,12 +72,12 @@ Loss: 0.6661
 Confusion Matrix analizi
 Sınıf bazlı accuracy değerlendirmesi
 
-###4. Grad-CAM Görselleştirme
+### 4. Grad-CAM Görselleştirme
 Model karar mekanizmasının analizi
 
 Problemli sınıfların tespiti (bell_tower, flying_buttress)
 
-###5. Hiperparametre Optimizasyonu
+### 5. Hiperparametre Optimizasyonu
 Learning Rate tuning
 
 Dropout oranı optimizasyonu
