@@ -1,5 +1,3 @@
-# Architectural-Heritage-Elements-Classification
-Architectural Heritage Elements Classification - Akbank Derin Öğrenme Bootcamp Projesi - Mimari Miras Elemanları Sınıflandırması
 # Architectural Heritage Elements Classification 🏛️
 
 Akbank Derin Öğrenme Bootcamp Projesi - Mimari Miras Elemanları Sınıflandırması
@@ -62,10 +60,10 @@ Bu projede, 10 farklı mimari miras elemanının görüntülerden otomatik olara
 ### 2. CNN Modeli
 python
 Model: Sequential
-├── Conv2D(32) -> BatchNorm -> MaxPooling -> Dropout
-├── Conv2D(64) -> BatchNorm -> MaxPooling -> Dropout  
-├── Conv2D(128) -> BatchNorm -> MaxPooling -> Dropout
-└── Dense(512) -> Dropout -> Dense(10) -> Softmax
+  ├── Conv2D(32) -> BatchNorm -> MaxPooling -> Dropout
+  ├── Conv2D(64) -> BatchNorm -> MaxPooling -> Dropout  
+  ├── Conv2D(128) -> BatchNorm -> MaxPooling -> Dropout
+  └── Dense(512) -> Dropout -> Dense(10) -> Softmax
 
 3. Model Değerlendirme
 Accuracy: 77.71%
@@ -89,15 +87,15 @@ Dropout oranı optimizasyonu
 Batch Size optimizasyonu
 
 🔧 Teknolojiler
-Python 3.11
+- Python 3.11
 
-TensorFlow/Keras
+- TensorFlow/Keras
 
-OpenCV
+- OpenCV
 
-Matplotlib/Seaborn
+- Matplotlib/Seaborn
 
-Scikit-learn
+- Scikit-learn
 
 👤 Author
 Muhammed Durmuş TOPRAK
