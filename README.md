@@ -101,8 +101,8 @@ Muhammed Durmuş TOPRAK
 Akbank Derin Öğrenme Bootcamp Katılımcısı
 
 🔗 Links
-Kaggle Notebook: https://www.kaggle.com/code/muhammedmdt/notebook0c7e813cbf/edit
+Kaggle Notebook: https://www.kaggle.com/code/muhammedmdt/notebook0c7e813cbf
 
-Dataset: https://www.kaggle.com/datasets/xhlulu/archi-heritage-elements
+Dataset: https://www.kaggle.com/datasets/ikobzev/architectural-heritage-elements-image64-dataset
 
 
