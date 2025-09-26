@@ -59,11 +59,12 @@ Bu projede, 10 farklı mimari miras elemanının görüntülerden otomatik olara
 
 ### 2. CNN Modeli
 python
-Model: Sequential
-  ├── Conv2D(32) -> BatchNorm -> MaxPooling -> Dropout /n
-  ├── Conv2D(64) -> BatchNorm -> MaxPooling -> Dropout /n
-  ├── Conv2D(128) -> BatchNorm -> MaxPooling -> Dropout /n
-  └── Dense(512) -> Dropout -> Dense(10) -> Softmax /n
+Model: 
+Sequential
+  ├── Conv2D(32) -> BatchNorm -> MaxPooling -> Dropout 
+  ├── Conv2D(64) -> BatchNorm -> MaxPooling -> Dropout 
+  ├── Conv2D(128) -> BatchNorm -> MaxPooling -> Dropout 
+  └── Dense(512) -> Dropout -> Dense(10) -> Softmax 
 
 3. Model Değerlendirme
 Accuracy: 77.71%
