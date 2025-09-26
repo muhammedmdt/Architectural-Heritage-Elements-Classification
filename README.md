@@ -66,21 +66,18 @@ Sequential
   ├── Conv2D(128) -> BatchNorm -> MaxPooling -> Dropout 
   └── Dense(512) -> Dropout -> Dense(10) -> Softmax 
 
-3. Model Değerlendirme
+### 3. Model Değerlendirme
 Accuracy: 77.71%
-
 Loss: 0.6661
-
 Confusion Matrix analizi
-
 Sınıf bazlı accuracy değerlendirmesi
 
-4. Grad-CAM Görselleştirme
+###4. Grad-CAM Görselleştirme
 Model karar mekanizmasının analizi
 
 Problemli sınıfların tespiti (bell_tower, flying_buttress)
 
-5. Hiperparametre Optimizasyonu
+###5. Hiperparametre Optimizasyonu
 Learning Rate tuning
 
 Dropout oranı optimizasyonu
